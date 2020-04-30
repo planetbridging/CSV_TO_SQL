@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV_TO_SQL", "CSV_TO_SQL\CSV_TO_SQL.csproj", "{0B7124EE-872F-4D3A-8E16-98475FA18ABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B7124EE-872F-4D3A-8E16-98475FA18ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7124EE-872F-4D3A-8E16-98475FA18ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7124EE-872F-4D3A-8E16-98475FA18ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7124EE-872F-4D3A-8E16-98475FA18ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A2649C-643A-4E88-BA69-DCAF2C7C2FF4}
+	EndGlobalSection
+EndGlobal

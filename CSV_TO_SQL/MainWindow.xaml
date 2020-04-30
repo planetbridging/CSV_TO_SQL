@@ -1,0 +1,27 @@
+﻿<Window x:Class="CSV_TO_SQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSV_TO_SQL"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="LstFiles" HorizontalAlignment="Left" Width="117" Margin="0,121,0,75"/>
+        <Button x:Name="BtnAddFiles" Content="Add Files" HorizontalAlignment="Left" VerticalAlignment="Top" Width="117" Margin="0,25,0,0" Click="BtnAddFiles_Click"/>
+        <Button x:Name="BtnStart" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="117" Click="BtnStart_Click" Margin="0,50,0,0"/>
+        <Label x:Name="TxtFileStatus" Content="0/0" Margin="122,0,92,0" Height="209" FontSize="150" VerticalAlignment="Top"/>
+        <Label x:Name="TxtCurrentFileStatus" Content="0.0" Margin="127,0,92,0" Height="209" FontSize="150" VerticalAlignment="Bottom"/>
+        <Button x:Name="BtnOutput" Content="Output Folder" HorizontalAlignment="Left" VerticalAlignment="Top" Width="117" Click="BtnOutput_Click"/>
+        <TextBox x:Name="TxtDivider" HorizontalAlignment="Left" Height="23" Margin="0,93,0,0" TextWrapping="Wrap" Text="|" VerticalAlignment="Top" Width="117"/>
+        <Label Content="Divider" HorizontalAlignment="Left" Margin="0,70,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BtnSplitFiles" Content="Split File" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="117" Click="BtnSplitFiles_Click"/>
+        <TextBox x:Name="TxtChunkSize" HorizontalAlignment="Left" Height="23" Margin="0,0,0,25" TextWrapping="Wrap" Text="5000" VerticalAlignment="Bottom" Width="115" TextChanged="TxtChunk_TextChanged"/>
+        <Label Content="Lines per file" HorizontalAlignment="Left" Margin="0,344,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.684,0.551"/>
+        <Button x:Name="BtnExtract" Content="Extract" HorizontalAlignment="Right" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <TextBox x:Name="TxtExtractedTitles" HorizontalAlignment="Right" Height="23" Margin="0,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Titles" HorizontalAlignment="Right" Margin="0,25,0,0" VerticalAlignment="Top" Width="87"/>
+        <Button x:Name="BtnExtractNCombine" Content="Ex N Combine" HorizontalAlignment="Right" Margin="0,106,0,0" VerticalAlignment="Top" Width="87" Click="BtnExtractNCombine_Click"/>
+
+    </Grid>
+</Window>
